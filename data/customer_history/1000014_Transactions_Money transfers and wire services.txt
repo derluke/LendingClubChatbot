@@ -1,0 +1,19 @@
+Bank Agent: Good afternoon, how may I assist you today?
+
+Customer: Hi, I'm calling because I'm interested in learning more about money transfers and wire services.
+
+Bank Agent: Sure, I can definitely help you with that. Can you please provide me with your account information so I can better assist you?
+
+Customer: Yes, my ID is 1000014 and I have a loan with your bank for $5000 with a term of 36 months. The loan is for tax and debt consolidation.
+
+Bank Agent: Thank you for that information. Before we proceed, may I know the reason why you're interested in money transfers and wire services?
+
+Customer: Well, I have some family members who live abroad and I need to send them some money. I was wondering if your bank offers these services.
+
+Bank Agent: Yes, we do offer money transfers and wire services. However, there are some fees associated with these services. Would you like me to provide you with more information on the fees?
+
+Customer: Yes, please.
+
+Bank Agent: For domestic wire transfers, the fee is $25 per transaction. For international wire transfers, the fee is $45 per transaction. As for money transfers, we have different options available depending on your needs. We have online transfers, mobile transfers, and in-person transfers. The fees for these services vary depending on the amount and the destination.
+
+Customer: Okay, thank you for the information. Can you also tell me about the process of sending money

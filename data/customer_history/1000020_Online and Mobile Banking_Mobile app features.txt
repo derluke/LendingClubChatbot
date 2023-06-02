@@ -1,0 +1,23 @@
+Bank Agent: Good afternoon, how may I assist you today?
+
+Customer (ID: 1000020): Hi, I'm interested in discussing the mobile app features of your bank.
+
+Bank Agent: Sure, I'd be happy to help. What specific features are you interested in?
+
+Customer: Well, I'm currently a customer with a loan for a home building project. I want to be able to easily access my account information, make payments, and track my loan progress through the app.
+
+Bank Agent: That's great to hear. Our mobile app allows you to do all of those things and more. You can view your account balance, transaction history, and payment due dates. You can also set up automatic payments and receive alerts when payments are due.
+
+Customer: That sounds very convenient. Can I also apply for a new loan through the app?
+
+Bank Agent: Yes, you can apply for a new loan through the app. You can fill out the application, upload any necessary documents, and receive a decision within minutes.
+
+Customer: That's amazing. One more question, can I view my credit score through the app?
+
+Bank Agent: Yes, you can view your credit score and credit report through the app. You can also receive alerts when there are any changes to your credit report.
+
+Customer: That's perfect. Thank you for all the information.
+
+Bank Agent: You're welcome. Is there anything else I can assist you with?
+
+Customer: No, that's all for now. Thank

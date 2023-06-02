@@ -1,0 +1,63 @@
+1. Account Management:
+   - Opening a new account
+   - Closing an account
+   - Updating account information
+   - Understanding different types of accounts (savings, checking, joint, business, etc.)
+
+2. Online and Mobile Banking:
+   - Setup and usage
+   - Online security
+   - Mobile app features
+
+3. Financial Products:
+   - Credit cards
+   - Loans and mortgages
+   - Investment products (stocks, bonds, mutual funds)
+   - Retirement accounts (IRAs, 401k)
+   - Insurance products
+
+4. Transactions:
+   - Deposits and withdrawals
+   - Money transfers and wire services
+   - Check cashing
+   - Foreign currency exchange
+
+5. Fees and Charges:
+   - Explanation of any fees associated with accounts or transactions
+   - How to avoid fees
+
+6. Interest Rates:
+   - Current interest rates for savings and loans
+   - How interest rates are determined
+
+7. Financial Planning:
+   - Personal finance management
+   - Retirement planning
+   - Education savings plans
+   - Home buying advice
+
+8. Customer Service Issues:
+   - Resolving transaction errors
+   - Addressing concerns or complaints
+   - Lost or stolen cards
+   - Fraud alerts
+
+9. Bank Policies:
+   - Overdraft policies
+   - Loan payment policies
+   - Safety deposit box policies
+
+10. Credit Scores and Reports:
+    - Understanding how credit scores work
+    - How to improve one's credit score
+    - How to dispute errors in a credit report
+
+11. Security and Fraud Prevention:
+    - Protecting personal information
+    - Recognizing and avoiding scams
+    - Reporting suspicious activities
+
+12. Digital Payments:
+    - Understanding digital wallets
+    - How to use contactless payment
+    - Using bank's digital payment systems

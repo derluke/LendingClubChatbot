@@ -1,0 +1,21 @@
+Bank Agent: Good morning, how can I assist you today?
+
+Customer: Hi, I was just wondering if you offer any insurance products?
+
+Bank Agent: Yes, we do offer insurance products. What type of insurance are you interested in?
+
+Customer: I'm not sure, I just want to know what options are available.
+
+Bank Agent: Well, we have a range of insurance products such as life insurance, home insurance, car insurance, and more. Are you looking for any specific type of insurance?
+
+Customer: I'm actually interested in life insurance. Can you tell me more about it?
+
+Bank Agent: Sure, we offer different types of life insurance policies such as term life insurance, whole life insurance, and universal life insurance. Term life insurance provides coverage for a specific period of time, while whole life insurance and universal life insurance provide coverage for the entire life of the insured.
+
+Customer: That sounds interesting. How much would it cost me?
+
+Bank Agent: The cost of life insurance depends on various factors such as your age, health, and the type of policy you choose. However, we can provide you with a quote based on your specific needs and circumstances.
+
+Customer: Okay, that sounds good. Can you also tell me about the benefits of having life insurance?
+
+Bank Agent: Sure, life insurance provides financial protection for your loved ones in case of your unexpected death. It can help cover expenses such as funeral costs, outstanding debts, and provide income replacement for your family. It's a

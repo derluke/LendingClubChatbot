@@ -1,0 +1,13 @@
+Bank Agent: Good afternoon, Mr. Deere. How can I assist you today?
+
+Customer: Hi, I was wondering if you could give me some advice on buying a home.
+
+Bank Agent: Of course, I'd be happy to help. Can you tell me a bit about your current financial situation?
+
+Customer: Sure. I have an annual income of $50,000 and I currently have a loan with your bank for $25,000 with a term of 36 months. The loan is for debt consolidation and has an interest rate of 15.58%. My revolving line utilization rate is 59.2% and I've had 2 inquiries on my credit report in the last 6 months.
+
+Bank Agent: Thank you for providing that information. Based on your current financial situation, I would recommend that you work on paying down your debt and improving your credit score before considering buying a home. A high revolving line utilization rate and recent inquiries on your credit report could negatively impact your ability to obtain a mortgage with favorable terms.
+
+Customer: That makes sense. Do you have any tips on how I can improve my credit score?
+
+Bank Agent: Yes, there are a few things you can do. First, try to pay down your credit card balances to reduce your revolving line utilization rate. Additionally, make sure to make all of your payments on time and avoid opening new lines of credit unless absolutely necessary. Finally, you can request a copy of your credit report and dispute any errors that

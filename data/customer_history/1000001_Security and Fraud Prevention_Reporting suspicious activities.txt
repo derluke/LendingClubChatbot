@@ -1,0 +1,21 @@
+Bank Agent: Good afternoon, how may I assist you today?
+
+Customer: Hi, I wanted to discuss reporting suspicious activities on my account.
+
+Bank Agent: Of course, I'll be happy to help. Can you please provide me with your account number or any other identifying information?
+
+Customer: My ID is 1000001, and I have a loan with you.
+
+Bank Agent: Thank you for that information. Can you please tell me more about the suspicious activity you've noticed?
+
+Customer: Well, I received an email notification that someone tried to access my account from a different location. I didn't authorize this, so I wanted to report it.
+
+Bank Agent: I see. That's definitely a cause for concern. We take security very seriously, and I'll be happy to assist you with this. Can you please confirm your contact information, including your phone number and email address?
+
+Customer: Sure. My phone number is (123) 456-7890, and my email address is customer@email.com.
+
+Bank Agent: Thank you. I'll make a note of that in your account. We'll also need to verify your identity before we can proceed with any further actions. Can you please confirm your date of birth and the last four digits of your social security number?
+
+Customer: My date of birth is January 1, 1980, and the last four digits of my social security number are 1234.
+
+Bank Agent: Thank you for confirming that. I'll go ahead

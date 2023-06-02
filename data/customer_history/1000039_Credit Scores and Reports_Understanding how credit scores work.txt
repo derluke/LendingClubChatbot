@@ -1,0 +1,16 @@
+Bank Agent: Good afternoon, Mr. Gallagher. How can I assist you today?
+
+Customer: Hi, I was hoping to learn more about how credit scores work.
+
+Bank Agent: Of course, I'd be happy to help. Your credit score is based on several factors, including your payment history, credit utilization, length of credit history, types of credit, and recent credit inquiries.
+
+Customer: That makes sense. I've been working on paying off my credit cards and keeping up with my payments. How does my credit utilization rate affect my score?
+
+Bank Agent: Your credit utilization rate is the amount of credit you're using compared to your available credit. A high utilization rate can negatively impact your score, so it's important to keep it low. Your rate is currently at 81.5%, which is quite high. I would recommend paying down your balances to improve your score.
+
+Customer: Okay, I'll definitely work on that. What about credit inquiries? I've had a few in the past few months.
+
+Bank Agent: Credit inquiries can also impact your score, especially if you have too many in a short period of time. It's important to only apply for credit when you really need it. In the past six months, you've had three inquiries on your report, which isn't too bad. Just be mindful of how often you're applying for credit.
+
+Customer: Got it, thanks for the advice. One more question - how does my employment and income affect my credit score?
+

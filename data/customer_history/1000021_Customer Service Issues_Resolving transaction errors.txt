@@ -1,0 +1,15 @@
+Bank Agent: Good morning, how may I assist you today?
+
+Customer: Hi, I'm having some issues with my recent transaction. I noticed that there's an error in the amount that was deducted from my account.
+
+Bank Agent: I'm sorry to hear that. Can you please provide me with your account details so I can check on this?
+
+Customer: Sure, my ID is 1000021. I work at Eastern Virginia Medical School and my zip code is 234xx. I currently have a loan amounting to $20000 with a term of 36 months, with an interest rate of 11.99%.
+
+Bank Agent: Thank you for that information. I see that your loan is for credit card purposes and it's classified under the grade 'B' with a sub-grade of 'B5'. The title of this loan is 'New Loan'. Your annual income is $350000.0, and your revolving line utilization rate stands at 80.4. Over the last 6 months, you've had 0.0 inquiries on your credit report.
+
+Customer: Yes, that's correct. But going back to my concern, can you help me resolve this transaction error?
+
+Bank Agent: Of course. Can you please provide me with the details of the transaction, such as the date, amount, and merchant name?
+
+Customer: The transaction was made last week, on the 15th of May. The amount deducted was $500, but it should have been

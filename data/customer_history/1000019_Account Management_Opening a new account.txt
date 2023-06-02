@@ -1,0 +1,27 @@
+Bank Agent: Good morning, how may I assist you today?
+
+Customer: Hi, I'm interested in opening a new account.
+
+Bank Agent: Great! May I have your ID number please?
+
+Customer: Sure, it's 1000019.
+
+Bank Agent: Thank you. I see that you currently have a loan with us for a downpayment on your second real estate investment property. How has that been going?
+
+Customer: It's been going well, thank you.
+
+Bank Agent: That's great to hear. Can you tell me more about the type of account you're interested in opening?
+
+Customer: I'm looking for a savings account with a good interest rate.
+
+Bank Agent: We have several options available. Based on your financial profile, I would recommend our high-yield savings account. It offers a competitive interest rate and no monthly maintenance fees.
+
+Customer: That sounds good. Can you tell me more about the requirements for opening the account?
+
+Bank Agent: Sure. To open a high-yield savings account, you'll need to provide a valid ID, proof of address, and your social security number. You'll also need to make an initial deposit of at least $500.
+
+Customer: That's reasonable. How long does it take to open the account?
+
+Bank Agent: It usually takes about 10-15 minutes to complete the application process. Once your account is approved, you'll receive your account number and other important information via email.
+
+Customer: Okay, that sounds good.

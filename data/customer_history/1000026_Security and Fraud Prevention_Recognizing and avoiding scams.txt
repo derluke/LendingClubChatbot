@@ -1,0 +1,25 @@
+Bank Agent: Good afternoon, how may I assist you today?
+
+Customer: Hi, I just wanted to talk about recognizing and avoiding scams.
+
+Bank Agent: Of course, that's a very important topic. Do you have any specific concerns or questions?
+
+Customer: Not really, I just want to make sure I'm not falling for any scams. I work in finance, so I know how important it is to be careful with my money.
+
+Bank Agent: That's great to hear. One thing to keep in mind is to never give out personal information, such as your social security number or bank account information, to anyone who contacts you unsolicited.
+
+Customer: Yes, I've heard that before. What about phishing scams?
+
+Bank Agent: Phishing scams are when someone tries to trick you into giving them your personal information by posing as a legitimate company or organization. It's important to always double-check the sender's email address and never click on any suspicious links.
+
+Customer: Okay, I'll keep that in mind. What about investment scams?
+
+Bank Agent: Investment scams can be tricky because they often promise high returns with little risk. It's important to do your research and only invest with reputable companies or financial advisors.
+
+Customer: That makes sense. Thank you for the advice.
+
+Bank Agent: Of course, always happy to help. Is there anything else I can assist you with today?
+
+Customer: No, that's all for now. Thank you again.
+
+Bank Agent: You're welcome. Have

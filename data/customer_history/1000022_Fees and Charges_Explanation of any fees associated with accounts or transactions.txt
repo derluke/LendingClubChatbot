@@ -1,0 +1,17 @@
+Bank Agent: Good afternoon, how may I assist you today?
+
+Customer: Hi, I was just wondering if you could explain any fees associated with my accounts or transactions?
+
+Bank Agent: Of course, I'd be happy to help. Can you please provide me with your account information?
+
+Customer: Sure, my ID is 1000022 and I have a loan with you for $25000 with a term of 60 months. The loan is for debt consolidation and has an interest rate of 16.45%. It's classified under the grade 'E' with a sub-grade of 'E1' and the title of the loan is 'SURVIVE'.
+
+Bank Agent: Thank you for providing that information. I can see that you have a checking and savings account with us as well. There are no monthly maintenance fees for these accounts, but there may be fees associated with certain transactions such as overdrafts, wire transfers, and foreign transactions.
+
+Customer: Okay, that makes sense. Can you tell me what those fees are?
+
+Bank Agent: Sure, for overdrafts, there is a fee of $35 per item. For wire transfers, there is a fee of $25 for domestic transfers and $40 for international transfers. And for foreign transactions, there is a fee of 3% of the transaction amount.
+
+Customer: Thank you for explaining that to me. Is there anything else I should be aware of?
+
+Bank Agent: Just one more thing to note, there may

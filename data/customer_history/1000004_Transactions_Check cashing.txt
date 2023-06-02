@@ -1,0 +1,23 @@
+Bank Agent: Good morning, how may I assist you today?
+
+Customer: Hi, I wanted to inquire about check cashing services.
+
+Bank Agent: Sure, we do offer check cashing services. May I have your account information, please?
+
+Customer: My ID is 1000004, and I reside in the area with the zip code 439xx. I work at Belmont Correctional, and my annual income is $50004.0.
+
+Bank Agent: Thank you for the information. I see that you currently have a loan with us for debt consolidation, vacation, and a ring. How is that going for you?
+
+Customer: It's going well, thank you. I just wanted to know if I can also cash my checks at your bank.
+
+Bank Agent: Of course, we can definitely help you with that. However, I noticed that over the last 6 months, you've had 4 inquiries on your credit report. I just want to remind you that too many hard inquiries might negatively impact your credit score.
+
+Customer: Thank you for the reminder. I'll keep that in mind. Can you tell me more about the check cashing fees?
+
+Bank Agent: Sure, our check cashing fees vary depending on the type of check and the amount. We can provide you with a fee schedule and answer any questions you may have.
+
+Customer: That would be great, thank you.
+
+Bank Agent: No problem. Is there anything else I can help you with today?
+
+Customer

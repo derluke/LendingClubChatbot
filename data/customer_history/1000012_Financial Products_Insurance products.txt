@@ -1,0 +1,21 @@
+Bank Agent: Good afternoon, Mr. 1000012. How can I assist you today?
+
+Customer: Hi, I was wondering if you could tell me more about the insurance products that your bank offers.
+
+Bank Agent: Of course, we have a variety of insurance products available. Are you looking for something specific?
+
+Customer: Well, I'm interested in getting some insurance to protect my loan in case something happens to me.
+
+Bank Agent: Ah, I see. We do offer credit life insurance that can help pay off your loan in the event of your death. We also have disability insurance that can help make your loan payments if you become disabled and unable to work.
+
+Customer: That sounds like something I might be interested in. Can you tell me more about the credit life insurance?
+
+Bank Agent: Sure. With credit life insurance, if you were to pass away while the loan is still outstanding, the insurance would pay off the remaining balance of your loan. It's a way to provide peace of mind to you and your loved ones.
+
+Customer: That sounds like a good idea. How much would it cost?
+
+Bank Agent: The cost of the insurance would depend on the amount of your loan and your age. I can provide you with a quote if you'd like.
+
+Customer: Yes, please do. And what about the disability insurance?
+
+Bank Agent: Disability insurance is designed to help make your loan payments if you become disabled and unable to work. It can help protect your credit score and

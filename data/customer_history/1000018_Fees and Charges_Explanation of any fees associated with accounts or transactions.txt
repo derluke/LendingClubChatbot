@@ -1,0 +1,17 @@
+Bank Agent: Good afternoon, how may I assist you today?
+
+Customer: Hi, I would like to know more about the fees associated with my accounts and transactions.
+
+Bank Agent: Sure, I can definitely help you with that. Can you please provide me with your account details?
+
+Customer: My ID is 1000018, and I reside in the area with the zip code 925xx. I currently have a loan amounting to $20000 with a term of 36 months. This loan is for debt consolidation, and it carries an interest rate of 12.42%.
+
+Bank Agent: Thank you for providing me with your details. As for the fees, we do charge a processing fee of $50 for each transaction. Additionally, there may be other fees associated with your account, such as overdraft fees or late payment fees.
+
+Customer: I see. Can you tell me more about these fees?
+
+Bank Agent: Of course. Overdraft fees are charged when you spend more money than you have in your account. The fee for this is $35 per transaction. Late payment fees are charged when you miss a payment on your loan. The fee for this is 5% of the missed payment amount.
+
+Customer: That's good to know. Is there anything else I should be aware of?
+
+Bank Agent: Yes, it's important to note that there may be other fees associated with your account, depending on the type of account you have. It's always a good idea to

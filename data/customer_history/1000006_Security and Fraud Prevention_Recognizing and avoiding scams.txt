@@ -1,0 +1,25 @@
+Bank Agent: Good afternoon, how may I assist you today?
+
+Customer: Hi, I just wanted to discuss recognizing and avoiding scams with you.
+
+Bank Agent: Sure, I'd be happy to help. Are you currently experiencing any issues with scams?
+
+Customer: No, not at the moment, but I want to be prepared and informed.
+
+Bank Agent: That's a great mindset to have. Can you tell me a bit about your current loan with us?
+
+Customer: Yes, I have a loan amounting to $14000 with a term of 60 months. It's a credit card consolidation loan with an interest rate of 7.51%.
+
+Bank Agent: I see. And what is the purpose of the loan?
+
+Customer: It's for credit card debt consolidation.
+
+Bank Agent: Okay, thank you for that information. Now, when it comes to recognizing and avoiding scams, it's important to be cautious of any unsolicited phone calls or emails asking for personal information or money. Always verify the legitimacy of the source before providing any information or making any payments.
+
+Customer: That's good to know. Is there anything else I should be aware of?
+
+Bank Agent: Yes, be wary of any promises of quick and easy money or loans with no credit check. These are often red flags for scams. Also, keep an eye on your credit report and report any suspicious activity immediately.
+
+Customer: Thank you for the advice. I'll definitely keep all of that in mind.
+
+Bank Agent:

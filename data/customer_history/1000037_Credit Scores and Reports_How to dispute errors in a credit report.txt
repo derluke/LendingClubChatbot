@@ -1,0 +1,23 @@
+Bank Agent: Good afternoon, how may I assist you today?
+
+Customer: Hi, I'm calling because I noticed some errors on my credit report and I want to dispute them.
+
+Bank Agent: Sure, I can definitely help you with that. Can you please provide me with your account information?
+
+Customer: Yes, my ID is 1000037 and I reside in the area with the zip code 918xx. I currently have a loan amounting to $6000 with a term of 36 months.
+
+Bank Agent: Thank you for that information. Can you please tell me what errors you found on your credit report?
+
+Customer: Yes, I noticed that there are some accounts that are not mine and some late payments that I never made.
+
+Bank Agent: I see. We can definitely help you with that. We will need to file a dispute with the credit bureau and provide them with any supporting documents that you have to prove that the information is incorrect.
+
+Customer: Okay, what kind of documents do I need to provide?
+
+Bank Agent: Any documents that show that the information is incorrect, such as bank statements or receipts. We will also need a copy of your credit report with the errors highlighted.
+
+Customer: Okay, I can provide that. How long does the dispute process take?
+
+Bank Agent: It can take up to 30 days for the credit bureau to investigate the dispute and make a decision. We will keep you updated throughout the process.
+
+Customer: Alright, thank you for your

@@ -1,0 +1,21 @@
+Bank Agent: Good afternoon, how may I assist you today?
+
+Customer: Hi, I'm calling because I lost my credit card.
+
+Bank Agent: I'm sorry to hear that. Can you please provide me with your account information?
+
+Customer: Sure. My ID is 1000049, and I work for Fox News Channel. My zip code is 115xx.
+
+Bank Agent: Thank you. I see that you have a loan with us for debt consolidation. Is that correct?
+
+Customer: Yes, that's correct.
+
+Bank Agent: Alright. I have located your account, and I see that you have a credit card with us. Can you confirm the last four digits of the card number?
+
+Customer: Yes, it's 1234.
+
+Bank Agent: Thank you. I have blocked that card for you. We will send you a new one in the mail within the next 7-10 business days. In the meantime, is there anything else I can assist you with?
+
+Customer: No, that's all. Thank you for your help.
+
+Bank Agent: You're welcome. Have a great day!

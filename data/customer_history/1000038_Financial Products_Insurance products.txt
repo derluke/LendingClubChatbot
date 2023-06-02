@@ -1,0 +1,21 @@
+Bank Agent: Good afternoon, ID 1000038. How can I assist you today?
+
+Customer: Hi, I was just wondering about the insurance products that your bank offers.
+
+Bank Agent: Sure, we offer a variety of insurance products such as life insurance, home insurance, and auto insurance. Is there a specific type of insurance you're interested in?
+
+Customer: Actually, I was thinking about getting some insurance for my loan. I want to make sure that I'm covered in case anything happens and I can't make my payments.
+
+Bank Agent: That's a great idea. We do offer loan protection insurance that can help cover your loan payments in case of unexpected events such as job loss, disability, or death. Would you like me to provide you with more information on this?
+
+Customer: Yes, please. How much does it cost?
+
+Bank Agent: The cost of loan protection insurance varies depending on the loan amount and term. For your loan of $7000 with a term of 36 months, the cost would be around $10 per month. This would provide you with peace of mind knowing that your loan payments are covered in case of unforeseen circumstances.
+
+Customer: That sounds reasonable. Can I add this insurance to my loan?
+
+Bank Agent: Absolutely. I can assist you with adding loan protection insurance to your loan. Is there anything else you would like to know about our insurance products?
+
+Customer: No, that's all. Thank you for your help.
+
+Bank Agent: You

@@ -1,0 +1,25 @@
+Bank Agent: Good afternoon, how may I assist you today?
+
+Customer: Hi, I'm calling because I want to understand how credit scores work.
+
+Bank Agent: Sure, I'd be happy to help. Can you provide me with your account information?
+
+Customer: Yes, my ID is 1000040. I have a loan with you for debt consolidation.
+
+Bank Agent: Great, thank you. So, your credit score is determined by several factors, including your payment history, credit utilization, length of credit history, types of credit, and recent credit inquiries.
+
+Customer: Okay, that makes sense. Can you tell me more about credit utilization?
+
+Bank Agent: Sure, credit utilization is the amount of credit you're using relative to all your available revolving credit. It's important to keep this ratio low, ideally below 30%, to maintain a good credit score.
+
+Customer: I see. My revolving line utilization rate is currently at 58.1%. Is that bad?
+
+Bank Agent: It's not ideal, but it's not necessarily bad either. It's important to work on lowering that ratio over time to improve your credit score.
+
+Customer: Okay, I'll keep that in mind. What about credit inquiries?
+
+Bank Agent: Credit inquiries are when a lender or creditor checks your credit report. Too many hard inquiries can negatively impact your credit score, so it's important to limit them as much as possible.
+
+Customer: How many inquiries do I have on my credit report?
+
+Bank Agent

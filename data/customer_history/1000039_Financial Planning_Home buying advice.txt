@@ -1,0 +1,17 @@
+Bank Agent: Good afternoon, Mr. Arthur. How can I assist you today?
+
+Customer: Hi, I'm interested in getting some home buying advice. I've been thinking about purchasing a house for a while now, and I'm not sure where to start.
+
+Bank Agent: Sure, I'd be happy to help. Before we get started, let me pull up your account information. I see that you currently have a loan with us for $12,000 with a term of 36 months. Is that correct?
+
+Customer: Yes, that's correct.
+
+Bank Agent: And the purpose of the loan is for credit card refinancing, is that right?
+
+Customer: Yes, that's correct.
+
+Bank Agent: Okay, great. Now, let's talk about your annual income. I see that you make $65,400 per year. That's a good income, and it should help you qualify for a mortgage. However, we'll need to take a closer look at your credit score and other factors before we can determine how much you can afford to borrow.
+
+Customer: Okay, that makes sense. I'm a bit worried about my credit score, though. I've had a few inquiries on my credit report over the last 6 months.
+
+Bank Agent: Yes, I see that you've had 3 inquiries on your credit report. While that's not ideal, it shouldn't have a major impact on your credit score. However, it's important to be careful about applying for

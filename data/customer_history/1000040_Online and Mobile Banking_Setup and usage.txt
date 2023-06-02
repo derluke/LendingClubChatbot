@@ -1,0 +1,27 @@
+Bank Agent: Good afternoon, how may I assist you today?
+
+Customer: Hi, I'm calling to inquire about the setup and usage of my loan account.
+
+Bank Agent: Sure, may I have your ID number please?
+
+Customer: It's 1000040.
+
+Bank Agent: Thank you. I see that you have a loan amounting to $13300 with a term of 60 months. Is that correct?
+
+Customer: Yes, that's right.
+
+Bank Agent: And the purpose of the loan is for debt consolidation, is that correct?
+
+Customer: Yes, that's right. I'm trying to pay off my student loans.
+
+Bank Agent: I see. Your loan is classified under the grade B with a sub-grade of B3, and carries an interest rate of 11.12%. Your annual income is $58000.0, and your revolving line utilization rate stands at 58.1. Over the last 6 months, you've had 3.0 inquiries on your credit report.
+
+Customer: Yes, that's correct.
+
+Bank Agent: Alright. Now, regarding the setup and usage of your loan account, may I know if you have already set up automatic payments?
+
+Customer: No, I haven't. How do I do that?
+
+Bank Agent: It's very easy. You can set up automatic payments by logging in to your online account and selecting the "Payments" tab. From there, you can choose to set up recurring payments.
+
+Customer: Okay

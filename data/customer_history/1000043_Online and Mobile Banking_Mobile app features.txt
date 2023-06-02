@@ -1,0 +1,17 @@
+Bank Agent: Good afternoon, how may I assist you today?
+
+Customer: Hi, I was wondering if you could tell me more about the mobile app features for your bank.
+
+Bank Agent: Of course, I'd be happy to help. Our mobile app allows you to check your account balances, view transaction history, transfer funds, and even deposit checks remotely.
+
+Customer: That sounds great. I'm also curious about my loan details. I have a loan with your bank for debt consolidation.
+
+Bank Agent: Sure, I can pull up your information. Your loan is for $6000 with a term of 36 months. The interest rate is 7.51%, and it's classified under the grade 'A' with a sub-grade of 'A4'. The title of this loan is 'Karilyn'.
+
+Customer: Yes, that's correct. I'm just wondering if there are any mobile app features that can help me manage my loan payments.
+
+Bank Agent: Absolutely. You can view your loan details and payment history through the app. You can also set up automatic payments or make one-time payments directly from your account.
+
+Customer: That's perfect. I also wanted to ask about my credit score. I've had a couple of inquiries on my report recently.
+
+Bank Agent: Yes, I see that you've had 2 inquiries in the last 6 months. It's important to note that too many hard inquiries might negatively impact your credit score. However, we offer credit monitoring services

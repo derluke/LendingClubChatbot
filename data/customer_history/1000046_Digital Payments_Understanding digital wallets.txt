@@ -1,0 +1,21 @@
+Bank Agent: Good afternoon, ID 1000046. How may I assist you today?
+
+Customer: Hi, I was just wondering if you could explain digital wallets to me. I've been hearing a lot about them lately and I'm not quite sure how they work.
+
+Bank Agent: Of course, I'd be happy to help. Digital wallets are essentially a way to store your payment information electronically. You can link your credit or debit cards to your digital wallet and use it to make purchases online or in-store.
+
+Customer: That sounds convenient. Are they secure?
+
+Bank Agent: Yes, digital wallets are generally very secure. They use encryption technology to protect your payment information and many also require a PIN or biometric authentication to access the wallet.
+
+Customer: That's good to know. Can I use a digital wallet with my bank account?
+
+Bank Agent: Yes, many digital wallets allow you to link your bank account as well. This can make it easier to transfer money between accounts or pay bills directly from your wallet.
+
+Customer: Interesting. Are there any downsides to using a digital wallet?
+
+Bank Agent: Well, one potential downside is that not all merchants accept digital wallets yet, so you may not be able to use it everywhere. Additionally, if your phone or other device is lost or stolen, someone could potentially access your digital wallet and make unauthorized purchases.
+
+Customer: I see. Overall, it sounds like a convenient option for making payments. Thanks for explaining it to me.
+
+Bank Agent

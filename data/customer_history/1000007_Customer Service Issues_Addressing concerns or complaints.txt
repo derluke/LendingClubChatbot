@@ -1,0 +1,21 @@
+Bank Agent: Good afternoon, how may I assist you today?
+
+Customer: Hi, I'm calling because I have some concerns about my loan.
+
+Bank Agent: Sure, I'd be happy to help. Can you please provide me with your ID number?
+
+Customer: Yes, my ID number is 1000007.
+
+Bank Agent: Thank you. I see that you have a loan for debt consolidation with an interest rate of 17.58%. Is that the loan you're referring to?
+
+Customer: Yes, that's the one. I'm having trouble keeping up with the payments, and I'm worried that I might default on the loan.
+
+Bank Agent: I understand your concern. Can you tell me more about your situation?
+
+Customer: Well, I work for Health Plan of Nevada, and I've been employed in the healthcare industry for six years since moving to NV seven years ago. I've always had stable job positions, but my income isn't enough to cover all my expenses. I have other debts to pay off, and I'm struggling to make ends meet.
+
+Bank Agent: I see. Have you considered applying for a loan modification or a payment plan?
+
+Customer: Yes, I have. But I'm not sure if I qualify for either of those options.
+
+Bank Agent: Let me check your account and see what we can do. Based on your credit score and income, you might be eligible for a loan modification or a payment plan. We can also discuss other options, such

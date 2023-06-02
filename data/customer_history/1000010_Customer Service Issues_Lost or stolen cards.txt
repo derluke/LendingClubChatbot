@@ -1,0 +1,17 @@
+Bank Agent: Good afternoon, how may I assist you today?
+
+Customer 1000010: Hi, I need to report a lost or stolen credit card.
+
+Bank Agent: I'm sorry to hear that. Can you please provide me with your account information?
+
+Customer 1000010: Sure, my ID is 1000010. I reside in the 921xx area and currently have a loan amounting to $10000 with a term of 36 months. The loan is for credit card consolidation and carries an interest rate of 6.62%. My annual income is $74000.0, and my revolving line utilization rate is 39.9. The loan is classified under the grade 'A' with a sub-grade of 'A2'.
+
+Bank Agent: Thank you for providing me with your account information. I can see that you have a credit card with us. Can you please confirm the last four digits of the card?
+
+Customer 1000010: Yes, it's 1234.
+
+Bank Agent: Thank you. I will go ahead and block the card for you. We will issue a new card and send it to your registered address within 7-10 business days. Is there anything else I can assist you with?
+
+Customer 1000010: No, that's all. Thank you for your help.
+
+Bank Agent: You're welcome. Have a great day!

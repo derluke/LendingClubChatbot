@@ -1,0 +1,25 @@
+Bank Agent: Good afternoon, how may I assist you today?
+
+Customer: Hi, I wanted to inquire about the overdraft policies of your bank.
+
+Bank Agent: Sure, I can definitely help you with that. May I have your account number or ID, please?
+
+Customer: My ID is 1000032.
+
+Bank Agent: Thank you. I see that you currently have a loan with us for debt consolidation. How is that going?
+
+Customer: It's going well, thank you. I'm making steady payments and hope to be debt-free in a few years.
+
+Bank Agent: That's great to hear. Now, regarding overdraft policies, we do offer overdraft protection for our customers. This means that if you accidentally overdraw your account, we will cover the transaction and charge a fee.
+
+Customer: How much is the fee?
+
+Bank Agent: The fee is $35 per transaction. However, if you link your checking account to a savings account or a credit card, we can transfer funds to cover the overdraft without charging a fee.
+
+Customer: That sounds like a good option. Can I set that up now?
+
+Bank Agent: Yes, you can set that up online or by calling our customer service line. Is there anything else I can assist you with?
+
+Customer: No, that's all. Thank you for your help.
+
+Bank Agent: You're welcome. Have a great day!

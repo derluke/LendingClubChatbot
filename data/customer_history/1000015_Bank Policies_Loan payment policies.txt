@@ -1,0 +1,25 @@
+Bank Agent: Good morning, how can I assist you today?
+
+Customer: Hi, I would like to know more about the loan payment policies.
+
+Bank Agent: Sure, I can help you with that. Can you please provide me with your ID number?
+
+Customer: Yes, my ID number is 1000015.
+
+Bank Agent: Thank you. I see that you have a debt consolidation loan with us, with a loan amount of $25000 and a term of 60 months. Your interest rate is 11.71%, and your loan is classified under grade B with a sub-grade of B3.
+
+Customer: Yes, that's correct.
+
+Bank Agent: Your loan payment is due on the 15th of every month, and we offer several payment options such as online payments, automatic payments, and payments by mail.
+
+Customer: Okay, that's good to know. What happens if I miss a payment?
+
+Bank Agent: If you miss a payment, we will charge a late fee of $25. It's important to make your payments on time to avoid late fees and negative impacts on your credit score.
+
+Customer: I understand. Can I make extra payments or pay off my loan early?
+
+Bank Agent: Yes, you can make extra payments or pay off your loan early without any penalties. In fact, paying off your loan early can save you money on interest.
+
+Customer: That's great to hear. Thank you for your help.
+
+Bank Agent: You're welcome. Do you

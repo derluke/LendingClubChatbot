@@ -1,0 +1,21 @@
+Bank Agent: Good morning, this is John from the bank. How may I assist you today?
+
+Customer (ID: 1000032): Hi John, this is Sasquatch Advertising. I have a concern about my loan.
+
+Bank Agent: Sure, what seems to be the problem?
+
+Customer: I noticed that my interest rate is quite high at 13.49%. Is there any way to lower it?
+
+Bank Agent: I understand your concern. However, your loan is classified under grade C with a sub-grade of C2, which means that it carries a higher risk. That's why the interest rate is set at that level.
+
+Customer: I see. But I have been a responsible borrower, and I have a clean credit report. Is there any way to re-evaluate my loan and possibly lower the interest rate?
+
+Bank Agent: I can certainly check that for you. Can you please provide me with your loan details?
+
+Customer: Sure. My loan amount is $11600 with a term of 60 months. It's for debt consolidation, and my annual income is $41000. My revolving line utilization rate is 61.9%, and I haven't had any inquiries on my credit report in the last 6 months.
+
+Bank Agent: Thank you for the information. Let me check if there are any options available to lower your interest rate. Please hold on for a moment.
+
+(Customer waits for a few minutes)
+
+Bank Agent: I have checked your loan details,

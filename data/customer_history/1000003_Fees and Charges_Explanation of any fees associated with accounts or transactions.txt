@@ -1,0 +1,21 @@
+Bank Agent: Good afternoon, how may I assist you today?
+
+Customer: Hi, I was just wondering if you could explain any fees associated with my accounts or transactions.
+
+Bank Agent: Of course, I'd be happy to help. Can you please provide me with your account information?
+
+Customer: Sure, my ID is 1000003. I have a loan with a balance of $18000 and an interest rate of 11.49%. It's a debt consolidation loan with a term of 60 months.
+
+Bank Agent: Thank you for that information. I see that you have a grade B loan with a sub-grade of B4. The title of the loan is Debt Consolidation Loan. There are no fees associated with this loan, but you will be charged interest on the outstanding balance.
+
+Customer: Okay, that makes sense. What about my other accounts?
+
+Bank Agent: You have a checking account and a savings account with us. There are no monthly maintenance fees for either account, but there may be fees associated with certain transactions such as overdrafts or wire transfers.
+
+Customer: I see. Can you tell me what those fees are?
+
+Bank Agent: Sure, an overdraft fee is $35 per item, and a wire transfer fee is $25 for domestic transfers and $50 for international transfers.
+
+Customer: Okay, thank you for letting me know. Is there anything else I should be aware of?
+
+Bank Agent: Just be mindful of your revolving line utilization rate, which
