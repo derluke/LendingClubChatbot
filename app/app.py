@@ -1,5 +1,4 @@
 import os
-from langchain import PromptTemplate
 import streamlit as st
 import pandas as pd
 import json
@@ -79,8 +78,9 @@ with c1:
         chat_history += f"Customer: {payload['inputs']['text']}"
         return chat_history
 
-    def query(payload):
+    def execute_llm(payload):
         chat_history = get_history(payload, length=100)
+        # st.write(chat_history)
         query = utils.chat_template.format(
             customer_dict=customer,
             chat_history=chat_history,
@@ -103,14 +103,17 @@ with c1:
             history=get_history(payload, 1),
             relevant_features=st.session_state["important_features"],
         )
-        feature_changes = st.session_state["llm"].predict(feature_change_prompt)
+        feature_changes = st.session_state["long_llm_gpt4"].predict(
+            feature_change_prompt
+        )
         try:
             feature_changes = json.loads(feature_changes)
         except:
-            pass
+            feature_changes = None
         st.session_state["feature_changes"] = feature_changes
         # st.write(query)
-        response = st.session_state["llm"].predict(query)
+        response = st.session_state["llm_gpt4"].predict(query)
+        st.write(query)
         return {"generated_text": response}
 
     def get_text():
@@ -124,7 +127,7 @@ with c1:
     user_input = get_text()
 
     if user_input:
-        output = query(
+        output = execute_llm(
             {
                 "inputs": {
                     "past_user_inputs": st.session_state.past,

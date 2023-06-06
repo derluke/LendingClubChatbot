@@ -1,13 +1,9 @@
-import json
-import re
-from glob import glob
 from pathlib import Path
 
 import datarobot as dr
 import dotenv
 import pandas as pd
 import streamlit as st
-import yaml
 from deployment_patch import predict
 from langchain import PromptTemplate
 from langchain.chat_models import ChatOpenAI
@@ -49,11 +45,18 @@ def load_history(customer_id):
 
 def init():
     llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0.3, max_tokens=300)
+    long_llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0.3, max_tokens=2000)
+
     if "llm" not in st.session_state:
         st.session_state["llm"] = llm
+    if "long_llm" not in st.session_state:
+        st.session_state["long_llm"] = long_llm
     llm_gpt4 = ChatOpenAI(model="gpt-4", temperature=0.3, max_tokens=300)
     if "llm_gpt4" not in st.session_state:
         st.session_state["llm_gpt4"] = llm_gpt4
+    long_llm_gpt4 = ChatOpenAI(model="gpt-4", temperature=0.3, max_tokens=300)
+    if "long_llm_gpt4" not in st.session_state:
+        st.session_state["long_llm_gpt4"] = long_llm_gpt4
     topics = read_topics("../data/topics.txt")
     credit_topics = read_topics("../data/credit_topics.txt")
 
@@ -84,15 +87,18 @@ def init():
 
 
 description_template = PromptTemplate(
-    template="""
-    The customer (ID: {customer_id}), with the employment title of {emp_title}, resides in the area with the zip code {zip_code}. They currently have a loan amounting to ${loan_amnt} with a term of {term}. This loan, described as '{desc}', carries an interest rate of {int_rate}.
-
-    The purpose of the loan is for '{purpose}', and it's classified under the grade '{grade}' with a sub-grade of '{sub_grade}'. The title of this loan is '{title}'.
-
-    This customer has an annual income of ${annual_inc}, and their revolving line utilization rate (the amount of credit they're using relative to all their available revolving credit or their 'revol_util') stands at {revol_util}.
-
-    Over the last 6 months, they've had {inq_last_6mths} inquiries on their credit report. It's important to note that too many hard inquiries might negatively impact a credit score.
-    """,
+    template=(
+        "The customer (ID: {customer_id}), with the employment title of {emp_title}, resides in the area with the zip "
+        "code {zip_code}. They currently have a loan amounting to ${loan_amnt} with a term of {term}. This loan, "
+        "described as '{desc}', carries an interest rate of {int_rate}."
+        "The purpose of the loan is for '{purpose}', and it's classified under the grade '{grade}' with a sub-grade of "
+        "'{sub_grade}'. The title of this loan is '{title}'.\n\n"
+        "This customer has an annual income of ${annual_inc}, and their revolving line utilization rate (the amount of "
+        "credit they're using relative to all their available revolving credit or their 'revol_util') stands at "
+        "{revol_util}.\n\n"
+        "Over the last 6 months, they've had {inq_last_6mths} inquiries on their credit report. It's important to note "
+        "that too many hard inquiries might negatively impact a credit score."
+    ),
     input_variables=[
         "desc",
         "annual_inc",
@@ -112,52 +118,59 @@ description_template = PromptTemplate(
 )
 
 history_template = PromptTemplate(
-    template="""
-    Give a a fictional conversation between a bank agent and a customer. 
-    The customer's description is given as {customer_desc}
-    They are discussing the topic {topic}.
-""",
+    template=(
+        "Give a a fictional conversation between a bank agent and a customer.\n"
+        "The customer's description is given as {customer_desc}\n"
+        "They are discussing the topic {topic}."
+    ),
     input_variables=["customer_desc", "topic"],
 )
 
 feature_change_extraction_prompt_template = PromptTemplate(
-    template="""
-    Given are the customer with data {customer_dict} and the conversation history 
-    {history}
-    Please identify any changes in the customer's explaining features.
-    {relevant_features}.
-    Please only respond in json, with the format:
-    {{"`feature_name`": {{"old_value": "`old_value`", "new_value": "`new_value`"}}}}
-    If nothing of relevance has changed, please respond with an empty json object.
-    """,
+    template=(
+        "Given are the customer with data {customer_dict} and the conversation history \n"
+        "{history}"
+        "Please identify any changes in the customer's explaining features."
+        "{relevant_features}."
+        "Please only respond in json, with the format:"
+        '{{"`feature_name`": {{"old_value": "`old_value`", "new_value": "`new_value`"}}}}'
+        "If nothing of relevance has changed, please respond with an empty json object."
+    ),
     input_variables=["customer_dict", "history", "relevant_features"],
 )
 
 topic_detection_prompt_template = PromptTemplate(
-    template="""
-    Given are the customer with data {customer_dict} and the conversation history 
-    {history}.
-    Please identify the topic of the conversation. The list of all possible topics are given by: 
-    {topics}
-    Please only respond in json, with the format:
-    {{"`topic`": "`topic`", "sub_topic": "`sub_topic`"}}
-    If no relevant topic has been detected, please respond with an empty json object.
-    """,
+    template=(
+        "Given are the customer with data {customer_dict} and the conversation history\n\n"
+        "{history}\n\n"
+        "Please identify the topic of the conversation. The list of all possible topics are given by:\n"
+        "{topics}\n"
+        "Please only respond in json, with the format:\n"
+        '{{"`topic`": "`topic`", "sub_topic": "`sub_topic`"}}\n'
+        "If no relevant topic has been detected, please respond with an empty json object."
+    ),
     input_variables=["customer_dict", "history", "topics"],
 )
 
 chat_template = PromptTemplate(
-    template="""
-    You are a Bank agent, talking to a customer. The customer has the following attributes {customer_dict}
-    Never ask to confirm the customer ID - we know that already. Feel free to confirm other attributes, but call out if there is a mismatch that is unexplained
-    Here is the conversation so far:
-    {chat_history}
-    In the past, the customer had the following conversations with the Bank:
-    {history}
-    Your job is it to help the customer with any questions they might have. You can ask the customer if they have any questions, or you can ask them if they want to talk about a specific topic.
-
-    Only answer with a complete sentence, only say what the Bank agent has to say - never ask for the customer ID
-    Please never write `Customer:` - only say what the Bank Agent has to say - then stop
-    """,
+    template=(
+        "You are a Bank agent, talking to a customer. The customer has the following attributes {customer_dict}\n"
+        "Never ask to confirm the customer ID - we know that already. Feel free to confirm other attributes, but "
+        "call out if there is a mismatch that is unexplained. Always look for information that could be wrong, by "
+        "mistake.\n\n"
+        "In the past, the customer had the following conversations with the Bank:\n"
+        "{history}"
+        "Your job is it to help the customer with any questions they might have. You can ask the customer if "
+        "they have any questions, or you can ask them if they want to talk about a specific topic.\n\n"
+        "Only answer with a complete sentence, only say what the Bank agent has to say - never ask for the "
+        "customer ID\n"
+        "Please never write `Customer:` - only say what the Bank Agent has to say - then stop\n\n"
+        "Here is the conversation so far and the question the customer has asked:\n\n"
+        "{chat_history}\n\n"
+        "If there is information that is conflicting, please call it out. Look out for any information received in "
+        "the conversation so far and check for errors.\n"
+        "If the customer presents new information: list the new information first, then answer any queries. Let's "
+        "answer step by step"
+    ),
     input_variables=["customer_dict", "chat_history", "history"],
 )
