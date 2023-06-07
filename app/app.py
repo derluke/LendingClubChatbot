@@ -113,7 +113,7 @@ with c1:
         st.session_state["feature_changes"] = feature_changes
         # st.write(query)
         response = st.session_state["llm_gpt4"].predict(query)
-        st.write(query)
+        # st.write(query)
         return {"generated_text": response}
 
     def get_text():
