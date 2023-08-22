@@ -29,6 +29,7 @@ def predict(
     max_explanations=None,
     threshold_high=None,
     threshold_low=None,
+    textExplanations=None,
 ):
     url = self.default_prediction_server[
         "url"
@@ -55,6 +56,9 @@ def predict(
         params["maxExplanations"] = max_explanations
         params["thresholdHigh"] = threshold_high
         params["thresholdLow"] = threshold_low
+
+    if textExplanations:
+        params["maxNgramExplanations"] = "all"
 
     project = dr.Project.get(self.model["project_id"])
     if project.use_time_series:
