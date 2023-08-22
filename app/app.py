@@ -2,16 +2,60 @@ import os
 import streamlit as st
 import pandas as pd
 import json
-from streamlit_chat import message
 import utils
 import datarobot as dr
+from PIL import Image
+from pathlib import Path
+import base64
+
+from dotenv import load_dotenv
+
+load_dotenv()
 
 
-st.set_page_config(layout="wide")
+im = Image.open("datarobot.jpg")
+
+st.set_page_config(
+    # layout="wide",
+    page_icon=im,
+    page_title="Customer Support Assistant App",  # edit this for your usecase
+    initial_sidebar_state="auto",
+    menu_items={"About": "Customer Support Assist app."},
+)
+
+
+def img_to_bytes(img_path):
+    img_bytes = Path(img_path).read_bytes()
+    encoded = base64.b64encode(img_bytes).decode()
+    return encoded
+
+
+st.title("Customer Support Assistant")
+
+header_html = """<style>
+    #content {
+        position: relative;
+    }
+    #content img {
+        position: absolute;
+        top: -50px;
+        right: -30px;
+    }
+</style>""" + "<div id='content'><img src='data:image/png;base64,{}' class='img-fluid' width='50'></div>".format(
+    img_to_bytes("./image/Robot-icon-blue-eyes_transparent.png")
+)
+st.markdown(
+    header_html,
+    unsafe_allow_html=True,
+)
 
 # Create a title for your app
-st.title("Lending Club Customer Support Dashboard")
+st.header(":blue[Lending Club Customer Support Dashboard]")
 # select datarobot deployment dropdown list
+
+client = dr.Client(
+    token=os.environ["DATAROBOT_API_TOKEN"], endpoint=os.environ["DATAROBOT_ENDPOINT"]
+)
 deployment = dr.Deployment.get("6478f959a2205947d6f22602")
 
 
@@ -143,8 +187,11 @@ with c1:
 
     if st.session_state["generated"]:
         for i in range(len(st.session_state["generated"]) - 1, -1, -1):
-            message(st.session_state["generated"][i], key=str(i))
-            message(st.session_state["past"][i], is_user=True, key=str(i) + "_user")
+            with st.chat_message(name="Bank Agent", avatar="🤵"):
+                st.write(st.session_state["generated"][i])
+
+            with st.chat_message(name="Customer", avatar="👩‍🦰"):
+                st.write(st.session_state["past"][i])
 with c2:
     if st.session_state.get("feature_changes", None):
         try:
